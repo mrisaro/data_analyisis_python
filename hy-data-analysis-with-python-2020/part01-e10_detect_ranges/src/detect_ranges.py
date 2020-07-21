@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 def detect_ranges(L):
+    range = []
+    i = 0
+    while i<len(L) 
     return []
 
 def main():
