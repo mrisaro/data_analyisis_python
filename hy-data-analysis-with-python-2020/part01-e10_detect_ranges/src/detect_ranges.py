@@ -3,7 +3,12 @@
 def detect_ranges(L):
     range = []
     i = 0
-    while i<len(L) 
+    while i<len(L):
+        dif = L[i+1]-L[i]
+        if diff == 1:
+
+
+
     return []
 
 def main():

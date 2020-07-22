@@ -2,9 +2,10 @@
 
 def interleave(*lists):
     l = []
-    for j in zip(lists):
-        l.extend(j)
-    return j
+    for tup in zip(*lists):
+         for val in tup:
+             l.append(val)
+    return l
 
 def main():
     print(interleave([1, 2, 3], [20, 30, 40], ['a', 'b', 'c']))

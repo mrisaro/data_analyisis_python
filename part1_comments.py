@@ -7,4 +7,3 @@ for x in l:
         continue
     print(f"Square root of {x} is {sqrt(x):.3f}")
     print(f"Natural logarithm of {x} is {log(x):.4f}")
-    
